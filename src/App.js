@@ -1,13 +1,15 @@
 import './App.css';
+// import UserComponent from './components/user';
+import UserList from './userList';
 // import { Clock } from './clases';
-import { Clock } from './funcional';
 
 
 function App() {
   return (
     <div className="App">
-      <Clock />
-      
+      <header className="App-header">
+        <UserList />
+      </header>
     </div>
   );
 }
